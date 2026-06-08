@@ -44,3 +44,4 @@ def test_is_even():
 def test_is_even_raises():
     with pytest.raises(ValueError):
         is_even(4.5)
+        
